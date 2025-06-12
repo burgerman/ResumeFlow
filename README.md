@@ -34,9 +34,9 @@ We're aiming to create a automated system that makes applying for jobs a breeze.
 
 ## 2. Setup, Installation and Usage
 ### 2.1. Prerequisites
- - OS : Linux, Mac
+ - OS : Windows10, Mac
  - Python : 3.11.6 and above
- - LLM API key: [OpenAI](https://platform.openai.com/account/api-keys) OR [Gemini Pro](https://ai.google.dev/)
+ - LLM: Ollama OR [OpenAI](https://platform.openai.com/account/api-keys) OR [Gemini Pro](https://ai.google.dev/)
 
 ### 2.2. Package Installation - Use as Library
 
@@ -95,9 +95,16 @@ cd job-llm
         ```
 5. If you want to run ollama models
     ```sh
-    ollama pull llama3.1
+    ollama pull gemma2:9b
     ```
-6. Run following script to get result
+    Add the pulled LLMs into the model list of LLM_MAPPING
+
+6. Run the app
+   ```sh
+    >>> streamlit run /zlm/__init__.py
+    ```
+
+7. Run following script to get result by APIs
 ```bash
 >>> python main.py /
     --url "JOB_POSTING_URL" /
@@ -139,15 +146,6 @@ address = {New York, NY, USA},
 
 ## 4. License
 JobLLM is under the MIT License and is supported for commercial usage.
-
-## 5. TODO
-Need to find way to install following command in streamlit
-```sh
-ollama
-playwright
-"ollama pull llama3.1"
-"ollama pull bge-m3"
-```
 
 ## 4. References
  - [Prompt engineering Guidelines](https://platform.openai.com/docs/guides/prompt-engineering)
