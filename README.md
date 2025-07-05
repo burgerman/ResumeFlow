@@ -50,6 +50,12 @@ cd job-llm
     ```sh
     ollama pull llama3.1
     ```
+    - Please feel free to try our fine-tuned Gemma2 models in different qubits.
+    ```sh
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q4_K_M
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q4_1
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q8_0
+    ``` 
 6. Run following script to get result
 ```bash
 >>> python main.py /
