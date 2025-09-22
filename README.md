@@ -97,6 +97,12 @@ cd job-llm
     ```sh
     ollama pull gemma2:9b
     ```
+    - Please feel free to try our fine-tuned Gemma2 models in different qubits.
+    ```sh
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q4_K_M
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q4_1
+    ollama run hf.co/WildBurger/group1_finetuned_gemma2_v3:Q8_0
+    
     Add the pulled LLMs into the model list of LLM_MAPPING
 
 6. Run the app
