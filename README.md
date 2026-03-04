@@ -25,6 +25,11 @@
  - [Amey Bhilegaonkar](https://www.linkedin.com/in/amey-bhilegaonkar) | [ameygoes](https://github.com/ameygoes) | abhilega@asu.edu
  - [Amrita Bhattacharjee](https://www.linkedin.com/in/amritabh) | [Amritabh](https://github.com/Amritabh) | abhatt43@asu.edu
 
+#### Active Authors
+ - [DAVID DAI](https://www.linkedin.com/in/david-dai-ching) | [daiqing2009](https://github.com/daiqing2009) | daix1890@mylaurier.ca
+ - [Menghao Wu](https://www.linkedin.com/in/menghao-w-a3a165b6) | [burgerman](https://github.com/burgerman) | wuxx3440@mylaurier.ca
+ - [Meet Sable](https://www.linkedin.com/in/meetsable)) | [MeetSable](https://github.com/MeetSable)) | sabl3770@mylaurier.ca
+
 ## 1. Introduction:
 ### 1.1. Our Proposal
 We're aiming to create a automated system that makes applying for jobs a breeze. Job hunting has many stages, and we see a chance to automate things and use LLM (Language Model) to make it even smoother. We're looking at different ways, both the usual and some new ideas, to integrate LLM into the job application process. The goal is to reduce how much you have to do and let LLM do its thing, making the whole process easier for you.
