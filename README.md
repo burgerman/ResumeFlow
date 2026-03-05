@@ -6,6 +6,12 @@
 
 This repository was forked from https://github.com/Ztrimus/ResumeFlow 
 
+### Author & Contributor List
+#### Contributors
+ - [DAVID DAI](https://www.linkedin.com/in/david-dai-ching) | [daiqing2009](https://github.com/daiqing2009) | daix1890@mylaurier.ca
+ - [Menghao Wu](https://www.linkedin.com/in/menghao-w-a3a165b6) | [burgerman](https://github.com/burgerman) | wuxx3440@mylaurier.ca
+ - [Meet Sable](https://www.linkedin.com/in/meetsable) | [MeetSable](https://github.com/MeetSable) | sabl3770@mylaurier.ca
+
 # Setup, Installation and Usage
 ## Prerequisites
  - OS : Linux, Mac
@@ -17,8 +23,8 @@ This repository was forked from https://github.com/Ztrimus/ResumeFlow
 ## Setup & Run Code - Use as Project
 
 ```sh
-git clone https://github.com/Ztrimus/job-llm.git
-cd job-llm
+git clone https://git@github.com:burgerman/ResumeFlow.git
+cd ResumeFlow
 ```
  1. Create and activate python environment (use `python -m venv .env` or conda or etc.) to avoid any package dependency conflict.
  2. Install [Poetry package](https://python-poetry.org/docs/basic-usage/) (dependency management and packaging tool)
